@@ -47,8 +47,21 @@ knitr::opts_chunk$set(echo = FALSE)
     + Command line: rmarkdown:: render("input.Rmd")
 
 ## Installation
-* Before you start, make sure you have installed the rmarkdown package  
+Before you start, make sure you have installed the rmarkdown package  
 
 `install.package("rmarkdown")`
 
+## Embed your code
+**inline code **   
+```{r echo=FALSE}
+bq="`"
+```
+The mean speed of cars is (`` `r sprintf("%sr mean(cars$speed)%s", bq, bq)` ``) `r mean(cars$speed)`. 
+
+**code chunk**   
+{r cars, echo=TRUE}
+
+```{r cars, echo=TRUE}
+summary(cars)
+```
 
