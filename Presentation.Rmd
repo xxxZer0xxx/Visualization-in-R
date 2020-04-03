@@ -10,7 +10,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Content
 
-- What is Rmarkdown?
+- What is R Markdown?
 - Summary of the advantages
 - Approach
 - Syntax for the main functions
@@ -19,17 +19,36 @@ knitr::opts_chunk$set(echo = FALSE)
 - Exercices and closure
 - Refernces
 
-## What is RMarkdown?
+## What is R Markdown?
 
-**Markdown** = Language for text fomrmatting
-- Markdown  
-- an easy to write plain text format for creatin dynamic documents and reports  
-- contains "normal" text and code chunks (e.g. R, but Python, SQL, and more also possible)  
-- RMD -> MD -> html, Docx or PDF  
-- Formatting documents outside the analysis  
+**Markdown** = Language for text fomrmatting  
+
+* Markdown  
+* an easy to write plain text format for creatin dynamic documents and reports  
+* contains "normal" text and code chunks (e.g. R, but Python, SQL, and more also possible)  
+* RMD -> MD -> html, Docx or PDF  
+* Formatting documents outside the analysis  
 
 **Creating a document that can contain both text and code:**  
-- When creating ("knitting"), the code is executed and displayed together with the description.  
-- Only a document with out warnings/errors can be knitted.  
-- Possible to export a Word, HTML or PDF file.  
+
+* When creating ("knitting"), the code is executed and displayed together with the description.  
+* Only a document with out warnings/errors can be knitted.  
+* Possible to export a Word, HTML or PDF file.  
+
+## Approach
+1. Open RStudio -> File -> New File -> R Markdown
+2. Enter a title for the document (optionally enter an author)
+3. Choose an output format
+4. YAML Headline: Final choice of your output format
+5. Write the markdown
+6. Embed Code
+7. Rendering Output  
+    + RStudio: "Knit" (Ctrl+Shift+K)
+    + Command line: rmarkdown:: render("input.Rmd")
+
+## Installation
+* Before you start, make sure you have installed the rmarkdown package  
+
+`install.package("rmarkdown")`
+
 
