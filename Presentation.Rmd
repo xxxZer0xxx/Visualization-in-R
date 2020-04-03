@@ -9,27 +9,28 @@ output: beamer_presentation
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-## R Markdown
+## Content
 
-This is an R Markdown presentation. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+- What is Rmarkdown?
+- Summary of the advantages
+- Approach
+- Syntax for the main functions
+- Specific examples
+- Overview
+- Exercices and closure
+- Refernces
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document.
+## What is RMarkdown?
 
-## Slide with Bullets
+**Markdown** = Language for text fomrmatting
+- MArkdown
+- an easy to write plain text format for creatin dynamic documents and reports
+- contains "normal" text and code chunks (e.g. R, but Python, SQL, and more also possible)
+- RMD -> MD -> html, Docx or PDF
+- Formatting documents outside the analysis
 
-- Bullet 1
-- Bullet 2
-- Bullet 3
-
-## Slide with R Output
-
-```{r cars, echo = TRUE}
-summary(cars)
-```
-
-## Slide with Plot
-
-```{r pressure}
-plot(pressure)
-```
+**Creating a document that can contain both text and code:**
+- When creating ("knitting"), the code is executed and displayed together with the description.
+- Only a document with out warnings/errors can be knitted.
+- Possible to export a Word, HTML or PDF file.
 
