@@ -1,6 +1,5 @@
 ---
 title: "RMarkdown"
-
 date: "3 4 2020"
 output: beamer_presentation
 ---
