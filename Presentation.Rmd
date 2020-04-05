@@ -57,21 +57,23 @@ Before you start, make sure you have installed the rmarkdown package
 * You can always change your output format, in the  YAML Header
 
 ## YAML Header
+\definecolor{green-code}{HTML}{2eb82e}
 ### Example
-title: "Exampled_rmkardown"  
-author: "rmarkdown_group"  
-date "3 4 2020"  
-output: html_document  
+\textcolor{blue}{title:} \textcolor{green-code}{"Exampled\_rmkardown"}  
+\textcolor{blue}{author:} \textcolor{green-code}{"rmarkdown\_group"}  
+\textcolor{blue}{date:} \textcolor{green-code}{"3 4 2020"}  
+\textcolor{blue}{output:} html_document  
   
 ### Output types
 
+
 Type | Format | Option in YAML Header
 -----|--------|------------------------
-Website | HTML | output: html_document  
-Document | PDF | output: pdf_document
-Document (Word) | RTF | output: word_document
-Presentation (beamer) | PDF | output: beamer_presentation
-Presentation (ioslides) | HTML | output: ioslides_presentation
+Website | HTML | \textcolor{green-code}{output}: \textcolor{green-code}{html\_document}  
+Document | PDF | \textcolor{green-code}{output}: \textcolor{green-code}{pdf\_document}  
+Document (Word) | RTF | \textcolor{green-code}{output}: \textcolor{green-code}{word\_document}  
+Presentation (beamer) | PDF |\textcolor{green-code}{output}: \textcolor{green-code}{beamer\_presentation}  
+Presentation (ioslides) | HTML | \textcolor{green-code}{output}: \textcolor{green-code}{ioslides\_presentation}  
 
 
 
