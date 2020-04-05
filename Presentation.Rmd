@@ -102,3 +102,36 @@ summary(cars)
 x = 'hello, python world!'
 print(x.split(' '))
 ```
+
+
+## Exercices
+
+To do the following execices, the R Markdown Reference Guide document will help you.  
+  
+Please download it from:  
+  
+https://myfiles.sbg.ac.at/index.php/s/7DrLxa2zZiqz5fH
+
+## Exercices  
+
+You are going to present your work on the "cars" dataset. 
+
+* Title: "Analysis of the cars dataset"  
+* Subtitle: Your name  
+* Set a header: "Part I: Summary statistics"  
+* Write a plain text introduction using empahsis and lists according to Reference Guide 
+and reproduce the following:  
+  
+`I will show you how to use the following commands on the speed variabel in the cars dataset`  
+`summary()`  
+`mean()`  
+`sd()`  
+
+## Exercices
+
+* Create a table that looks as following:
+
+Command | Result
+--------|-------
+`mean()` | `r mean(cars$speed)`
+`sd()` | `r sd(cars$speed)`
