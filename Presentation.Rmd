@@ -1,6 +1,6 @@
 ---
-title: "RMarkdown"
-date: "3 4 2020"
+title: "R Markdown"
+date: "`r format(Sys.Date(), '%d %b %Y')`"
 output: beamer_presentation
 ---
 
