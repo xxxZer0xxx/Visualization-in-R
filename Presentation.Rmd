@@ -147,3 +147,14 @@ Command | Result
 * Add some plain text, divided into two lines:
     + "Figure I:
     + Correlation of speed and distance"
+    
+    
+## Exercices
+* Reproduce this output, with `here` beeing the the following link:
+    +  [https://rmarkdown.rstudio.com/](https://rmarkdown.rstudio.com/)  
+      
+You can learn more about R Markdown [here](https://rmarkdown.rstudio.com/).  
+
+* At the then of your file, add a blockquote:  
+
+> "Stay Healthy!"
