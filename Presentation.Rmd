@@ -56,6 +56,25 @@ Before you start, make sure you have installed the rmarkdown package
    + **HTML** is recommeneded, since everybody can read it
 * You can always change your output format, in the  YAML Header
 
+## YAML Header
+### Example
+title: "Exampled_rmkardown"  
+author: "rmarkdown_group"  
+date "3 4 2020"  
+output: html_document  
+  
+### Output types
+
+Type | Format | Option in YAML Header
+-----|--------|------------------------
+Website | HTML | output: html_document  
+Document | PDF | output: pdf_document
+Document (Word) | RTF | output: word_document
+Presentation (beamer) | PDF | output: beamer_presentation
+Presentation (ioslides) | HTML | output: ioslides_presentation
+
+
+
 ## Embed your code
 **inline code **   
 ```{r echo=FALSE}
