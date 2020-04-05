@@ -51,6 +51,11 @@ Before you start, make sure you have installed the rmarkdown package
 
 `install.package("rmarkdown")`
 
+## Choose the output format
+* You can shoose between HTML, PDF and Docx(Word)  
+   + **HTML** is recommeneded, since everybody can read it
+* You can always change your output format, in the  YAML Header
+
 ## Embed your code
 **inline code **   
 ```{r echo=FALSE}
