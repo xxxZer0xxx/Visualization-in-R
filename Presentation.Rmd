@@ -134,4 +134,4 @@ and reproduce the following:
 Command | Result
 --------|-------
 `mean()` | `r mean(cars$speed)`
-`sd()` | `r sd(cars$speed)`
+`sd()` | `r round(sd(cars$speed), 2)`
