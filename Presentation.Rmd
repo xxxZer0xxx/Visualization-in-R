@@ -2,6 +2,7 @@
 title: "R Markdown"
 date: "`r format(Sys.Date(), '%d %b %Y')`"
 output: beamer_presentation
+urlcolor: blue
 ---
 
 ```{r setup, include=FALSE}
@@ -77,10 +78,6 @@ Presentation (ioslides) | HTML | \textcolor{green-code}{output}: \textcolor{gree
 
 ## Syntax Examples
 
-```{r echo=FALSE}
-st="*"
-ul="_"
-```
 Text formatting |
 -----|----------------
 Text | Text
@@ -93,7 +90,6 @@ Text | Text
 **inline code **   
 ```{r echo=FALSE}
 bq="`"
-st="*"
 ```
 The mean speed of cars is (`` `r sprintf("%sr mean(cars$speed)%s", bq, bq)` ``) `r mean(cars$speed)`. 
 
