@@ -75,12 +75,25 @@ Document (Word) | RTF | \textcolor{green-code}{output}: \textcolor{green-code}{w
 Presentation (beamer) | PDF |\textcolor{green-code}{output}: \textcolor{green-code}{beamer\_presentation}  
 Presentation (ioslides) | HTML | \textcolor{green-code}{output}: \textcolor{green-code}{ioslides\_presentation}  
 
+## Syntax Examples
+
+```{r echo=FALSE}
+st="*"
+ul="_"
+```
+Text formatting |
+-----|----------------
+Text | Text
+`` `r "*italic*"` `` or `` `r "_italic_"` `` | *italic*
+`` `r "**bold**"` `` or `` `r "__bold__"` ``| **bold**
+`` `r "[link](www.sbg.ac.at)"` `` | [link](www.sbg.ac.at)
 
 
 ## Embed your code
 **inline code **   
 ```{r echo=FALSE}
 bq="`"
+st="*"
 ```
 The mean speed of cars is (`` `r sprintf("%sr mean(cars$speed)%s", bq, bq)` ``) `r mean(cars$speed)`. 
 
