@@ -52,6 +52,20 @@ Before you start, make sure you have installed the rmarkdown package
 
 `install.package("rmarkdown")`
 
+## Open new Markdown file
+
+\begin{center}
+\includegraphics[scale=0.45]{IMG/NewRMD}
+\end{center}
+
+
+## Give your file a title
+
+\begin{center}
+\includegraphics[scale=0.45]{IMG/NewRMDSet}
+\end{center}
+
+
 ## Choose the output format
 * You can shoose between HTML, PDF and Docx(Word)  
    + **HTML** is recommeneded, since everybody can read it
