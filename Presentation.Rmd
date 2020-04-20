@@ -98,6 +98,15 @@ Document (Word) | RTF | \textcolor{green-code}{output}: \textcolor{green-code}{w
 Presentation (beamer) | PDF |\textcolor{green-code}{output}: \textcolor{green-code}{beamer\_presentation}  
 Presentation (ioslides) | HTML | \textcolor{green-code}{output}: \textcolor{green-code}{ioslides\_presentation}  
 
+## Write markdown
+
+You can use the Quick Reference or the Cheatsheet  
+Both can be found by opening the **Help** dropdown menu
+\begin{center}
+\includegraphics[scale=0.45]{IMG/QuickReference}
+\includegraphics[scale=0.35]{IMG/Cheatsheet}
+\end{center}
+
 ## Syntax Examples
 
 Text formatting |
