@@ -1,7 +1,9 @@
 ---
 title: "R Markdown"
 date: "`r format(Sys.Date(), '%d %b %Y')`"
-output: beamer_presentation
+output: 
+  beamer_presentation: 
+    theme: "CambridgeUS"
 urlcolor: blue
 ---
 
@@ -147,7 +149,7 @@ Press Shift + ` (twice or followed by Space)
 * You can also use other languges like Python, SQL and more to embed your code  
 
 ### Example
-{python}  
+
 ```{python, echo=TRUE}
 x = 'hello, python world!'
 print(x.split(' '))
