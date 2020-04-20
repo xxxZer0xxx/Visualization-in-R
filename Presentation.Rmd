@@ -101,7 +101,7 @@ Presentation (ioslides) | HTML | \textcolor{green-code}{output}: \textcolor{gree
 ## Write markdown
 
 You can use the Quick Reference or the Cheatsheet  
-Both can be found by opening the **Help** dropdown menu
+Both can be found by opening the **Help** dropdown menu which is positioned in the top bar
 \begin{center}
 \includegraphics[scale=0.45]{IMG/QuickReference}
 \includegraphics[scale=0.35]{IMG/Cheatsheet}
