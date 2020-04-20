@@ -123,6 +123,14 @@ The mean speed of cars is (`` `r sprintf("%sr mean(cars$speed)%s", bq, bq)` ``) 
 summary(cars)
 ```
 
+## How to get this " ` " symbol
+
+Press Shift + ` (twice or followed by Space)
+\begin{center}
+\includegraphics[scale=0.45]{IMG/Keyboard}
+\end{center}
+
+
 ## Embed your code
 * There are a couple of arguments to customize your output
     + e.g. adding echo = FALSE wilt not show the command in the output
