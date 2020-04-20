@@ -3,7 +3,7 @@ title: "R Markdown"
 date: "`r format(Sys.Date(), '%d %b %Y')`"
 output: 
   beamer_presentation: 
-    theme: "CambridgeUS"
+    theme: "Madrid"
 urlcolor: blue
 ---
 
