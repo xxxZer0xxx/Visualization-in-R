@@ -83,10 +83,9 @@ Before you start, make sure you have installed the rmarkdown package
 \definecolor{green-code}{HTML}{2eb82e}
 
 ### Example
-\textcolor{blue}{title:} \textcolor{green-code}{"Exampled\_rmkardown"}  
-\textcolor{blue}{author:} \textcolor{green-code}{"rmarkdown\_group"}  
-\textcolor{blue}{date:} \textcolor{green-code}{"3 4 2020"}  
-\textcolor{blue}{output:} html_document  
+\begin{center}
+\includegraphics[scale=0.45]{IMG/YAMLHeader}
+\end{center}
   
 ### Output types
 
