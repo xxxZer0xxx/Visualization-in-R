@@ -161,11 +161,13 @@ print(x.split(' '))
 \end{center}
 * Press **"Knit"** in Rstudio 
 * Press **Ctrl+Shift+K** (Windows)
-* Procedure
+* Procedure[^1]
 
 \begin{center}
 \includegraphics[scale=0.45]{IMG/Procedure}
 \end{center}
+
+[^1]: https://d33wubrfki0l68.cloudfront.net/61d189fd9cdf955058415d3e1b28dd60e1bd7c9b/b739c/lesson-images/rmarkdownflow.png
 
 ## References
 
