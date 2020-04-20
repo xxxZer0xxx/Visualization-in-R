@@ -67,12 +67,21 @@ Before you start, make sure you have installed the rmarkdown package
 
 
 ## Choose the output format
+
 * You can shoose between HTML, PDF and Docx(Word)  
    + **HTML** is recommeneded, since everybody can read it
 * You can always change your output format, in the  YAML Header
 
+## Starting Point
+
+\begin{center}
+\includegraphics[scale=0.30]{IMG/RMDDefault}
+\end{center}
+
 ## YAML Header
+
 \definecolor{green-code}{HTML}{2eb82e}
+
 ### Example
 \textcolor{blue}{title:} \textcolor{green-code}{"Exampled\_rmkardown"}  
 \textcolor{blue}{author:} \textcolor{green-code}{"rmarkdown\_group"}  
