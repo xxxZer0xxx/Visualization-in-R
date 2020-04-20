@@ -154,6 +154,27 @@ print(x.split(' '))
 ```
 
 
+## Rendering output
+
+\begin{center}
+\includegraphics[scale=0.45]{IMG/Knitr}
+\end{center}
+* Press **"Knit"** in Rstudio 
+* Press **Ctrl+Shift+K** (Windows)
+* Procedure
+
+\begin{center}
+\includegraphics[scale=0.45]{IMG/Procedure}
+\end{center}
+
+## References
+
+* https://rmarkdown.rstudio.com/lesson-1.html
+* https://www.is.uni-freiburg.de/resources/computational-economics/R_Markdown.pdf
+* https://www.youtube.com/watch?v=u4ZdvYXjsIo
+* https://bookdown.org/yihui/rmarkdown/
+
+
 ## Exercices
 
 To do the following execices, the R Markdown Reference Guide document will help you.  
