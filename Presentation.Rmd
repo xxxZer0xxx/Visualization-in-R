@@ -22,6 +22,11 @@ knitr::opts_chunk$set(echo = FALSE)
 - Exercices and closure
 - Refernces
 
+## Installation
+Before you start, make sure you have installed the rmarkdown package  
+
+`install.package("rmarkdown")`
+
 ## What is R Markdown?
 
 **Markdown** = Language for text fomrmatting  
@@ -49,10 +54,6 @@ knitr::opts_chunk$set(echo = FALSE)
     + RStudio: "Knit" (Ctrl+Shift+K)
     + Command line: rmarkdown:: render("input.Rmd")
 
-## Installation
-Before you start, make sure you have installed the rmarkdown package  
-
-`install.package("rmarkdown")`
 
 ## Open new Markdown file
 
@@ -80,6 +81,22 @@ Before you start, make sure you have installed the rmarkdown package
 \includegraphics[scale=0.30]{IMG/RMDDefault}
 \end{center}
 
+## Rendering output
+
+\begin{center}
+\includegraphics[scale=0.45]{IMG/Knitr}
+\end{center}
+* Press **"Knit"** in Rstudio 
+* Press **Ctrl+Shift+K** (Windows)
+* Procedure[^1]
+
+\begin{center}
+\includegraphics[scale=0.45]{IMG/Procedure}
+\end{center}
+
+[^1]: https://d33wubrfki0l68.cloudfront.net/61d189fd9cdf955058415d3e1b28dd60e1bd7c9b/b739c/lesson-images/rmarkdownflow.png
+
+
 ## YAML Header
 
 \definecolor{green-code}{HTML}{2eb82e}
@@ -104,13 +121,15 @@ Presentation (ioslides) | HTML | \textcolor{green-code}{output}: \textcolor{gree
 \definecolor{green-code}{HTML}{2eb82e}
 Additional YAML sesstings  
 
-* \textcolor{green-code}{toc}: yes  
-* \textcolor{green-code}{bibliography}: biblioraphy.bib  
+* \textcolor{green-code}{toc}: table of content  
+* \textcolor{green-code}{bibliography}: biblioraphy.bib file with your references
 * \textcolor{green-code}{csl}: custom citation style
 * \textcolor{green-code}{abstract}: Space to write an abstract  
 * \textcolor{green-code}{css}: use custom css [HTML]
 * \textcolor{green-code}{fig\_width, fig\_height, fig\_caption}: figure options 
 * \textcolor{green-code}{include}: include other .tex files [PDF]
+
+vielleicht eher als screenshot
 
 ## Write markdown
 
@@ -129,6 +148,17 @@ Text | Text
 `` `r "*italic*"` `` or `` `r "_italic_"` `` | *italic*
 `` `r "**bold**"` `` or `` `r "__bold__"` ``| **bold**
 `` `r "[link](www.sbg.ac.at)"` `` | [link](www.sbg.ac.at)
+
+## Exercices  
+
+You are going to present your work on the "Bike Rental" dataset. 
+
+* Title: "Analysis of the cars dataset"  
+* Subtitle: Your name  
+* Set a header: "Part I: Summary statistics"  
+* Write a plain text introduction using empahsis and lists according to Reference Guide 
+and reproduce the following: 
+* Create Headers
 
 
 ## Embed your code
@@ -152,6 +182,21 @@ Press Shift + ` (twice or followed by Space)
 \includegraphics[scale=0.45]{IMG/Keyboard}
 \end{center}
 
+## Create your first code chunks
+
+`I will show you how to use the following commands on the count variabel in the bike rental dataset`  
+`summary()`  
+`mean()`  
+`sd()`  
+
+## Embed your code
+Option | Description
+-----------------|--------------------
+**eval**(logical, TRUE) | Evalue chunk
+**echo**(logical, TRUE) | Hides R-Code
+**results**(char, "markup") | Formatting R output: e.g. "markup", "asis"
+
+
 
 ## Embed your code
 * There are a couple of arguments to customize your output
@@ -168,51 +213,6 @@ print(x.split(' '))
 ```
 
 
-## Rendering output
-
-\begin{center}
-\includegraphics[scale=0.45]{IMG/Knitr}
-\end{center}
-* Press **"Knit"** in Rstudio 
-* Press **Ctrl+Shift+K** (Windows)
-* Procedure[^1]
-
-\begin{center}
-\includegraphics[scale=0.45]{IMG/Procedure}
-\end{center}
-
-[^1]: https://d33wubrfki0l68.cloudfront.net/61d189fd9cdf955058415d3e1b28dd60e1bd7c9b/b739c/lesson-images/rmarkdownflow.png
-
-## References
-
-* https://rmarkdown.rstudio.com/lesson-1.html
-* https://www.is.uni-freiburg.de/resources/computational-economics/R_Markdown.pdf
-* https://www.youtube.com/watch?v=u4ZdvYXjsIo
-* https://bookdown.org/yihui/rmarkdown/
-
-
-## Exercices
-
-To do the following execices, the R Markdown Reference Guide document will help you.  
-  
-Please download it from:  
-  
-https://myfiles.sbg.ac.at/index.php/s/7DrLxa2zZiqz5fH
-
-## Exercices  
-
-You are going to present your work on the "cars" dataset. 
-
-* Title: "Analysis of the cars dataset"  
-* Subtitle: Your name  
-* Set a header: "Part I: Summary statistics"  
-* Write a plain text introduction using empahsis and lists according to Reference Guide 
-and reproduce the following:  
-  
-`I will show you how to use the following commands on the speed variabel in the cars dataset`  
-`summary()`  
-`mean()`  
-`sd()`  
 
 ## Exercices
 
@@ -227,13 +227,13 @@ Command | Result
 
 * Use the `summary()` function to display an overview of the main statistic measures
 * Automatically write the Minimum in the output of the sentence
-    + `The smallest value of speed is [inline code].`
+    + `The smallest value of count is [inline code].`
 * Add a horizontal line
 * Set a header: "Part II: Visualization"
 * Use the command `plot()` to gernerate a scatterplot. Do not print the code!
 * Add some plain text, divided into two lines:
     + "Figure I:
-    + Correlation of speed and distance"
+    + Correlation of count and day"
     
     
 ## Exercices
@@ -245,3 +245,10 @@ You can learn more about R Markdown [here](https://rmarkdown.rstudio.com/).
 * At the then of your file, add a blockquote:  
 
 > "Stay Healthy!"
+
+## References
+
+* https://rmarkdown.rstudio.com/lesson-1.html
+* https://www.is.uni-freiburg.de/resources/computational-economics/R_Markdown.pdf
+* https://www.youtube.com/watch?v=u4ZdvYXjsIo
+* https://bookdown.org/yihui/rmarkdown/
