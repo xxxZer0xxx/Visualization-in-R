@@ -29,9 +29,8 @@ Before you start, make sure you have installed the rmarkdown package
 
 ## What is R Markdown?
 
-**Markdown** = Language for text fomrmatting  
+**Markdown** = Language for text formatting  
 
-* Markdown  
 * an easy to write plain text format for creatin dynamic documents and reports  
 * contains "normal" text and code chunks (e.g. R, but Python, SQL, and more also possible)  
 * RMD -> MD -> html, Docx or PDF  
@@ -40,7 +39,7 @@ Before you start, make sure you have installed the rmarkdown package
 **Creating a document that can contain both text and code:**  
 
 * When creating ("knitting"), the code is executed and displayed together with the description.  
-* Only a document with out warnings/errors can be knitted.  
+* Only a document with out warnings/errors can be knitted!  
 * Possible to export a Word, HTML or PDF file.  
 
 ## Approach
@@ -67,6 +66,13 @@ Before you start, make sure you have installed the rmarkdown package
 \begin{center}
 \includegraphics[scale=0.45]{IMG/NewRMDSet}
 \end{center}
+
+## Exercices  
+
+You are going to present your work on the "Bike Rental" dataset. 
+
+* Title: "Analysis of the bike rental dataset"  
+* Subtitle: Your name  
 
 
 ## Choose the output format
@@ -149,16 +155,16 @@ Text | Text
 `` `r "**bold**"` `` or `` `r "__bold__"` ``| **bold**
 `` `r "[link](www.sbg.ac.at)"` `` | [link](www.sbg.ac.at)
 
-## Exercices  
+## Exercise
 
-You are going to present your work on the "Bike Rental" dataset. 
-
-* Title: "Analysis of the cars dataset"  
-* Subtitle: Your name  
 * Set a header: "Part I: Summary statistics"  
 * Write a plain text introduction using empahsis and lists according to Reference Guide 
 and reproduce the following: 
 * Create Headers
+* Load Image
+* Knit
+* Set YAML Header(after) -> toc, fig options
+* Knit again
 
 
 ## Embed your code
@@ -184,7 +190,8 @@ Press Shift + ` (twice or followed by Space)
 
 ## Create your first code chunks
 
-`I will show you how to use the following commands on the count variabel in the bike rental dataset`  
+`Now lets create our first chunks using the following   
+commands on the count variabel in the bike rental dataset: `  
 `summary()`  
 `mean()`  
 `sd()`  
@@ -197,11 +204,6 @@ Option | Description
 **results**(char, "markup") | Formatting R output: e.g. "markup", "asis"
 
 
-
-## Embed your code
-* There are a couple of arguments to customize your output
-    + e.g. adding echo = FALSE wilt not show the command in the output
-    
 ## Embed your code
 * You can also use other languges like Python, SQL and more to embed your code  
 
