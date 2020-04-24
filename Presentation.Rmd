@@ -104,10 +104,12 @@ Presentation (ioslides) | HTML | \textcolor{green-code}{output}: \textcolor{gree
 \definecolor{green-code}{HTML}{2eb82e}
 Additional YAML sesstings  
 
-*\textcolor{green-code}{toc}: yes  
-*\textcolor{green-code}{bibliography}: biblioraphy.bib  
-*\textcolor{green-code}{csl}: csl_style.csl  
-*\textcolor{green-code}{abstract}: Space to write an abstract  
+* \textcolor{green-code}{toc}: yes  
+* \textcolor{green-code}{bibliography}: biblioraphy.bib  
+* \textcolor{green-code}{csl}: csl_style.csl  
+* \textcolor{green-code}{abstract}: Space to write an abstract  
+* \textcolor{green-code}{css}: use custom css
+
 
 ## Write markdown
 
