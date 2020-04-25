@@ -136,7 +136,7 @@ Type | Format | Option in YAML Header
 -----|--------|------------------------
 Website | HTML | \textcolor{green-code}{output}: \textcolor{green-code}{html\_document}  
 Document | PDF | \textcolor{green-code}{output}: \textcolor{green-code}{pdf\_document}  
-Document (Word) | RTF | \textcolor{green-code}{output}: \textcolor{green-code}{word\_document}  
+Document (Word) | DOCX | \textcolor{green-code}{output}: \textcolor{green-code}{word\_document}  
 Presentation (beamer) | PDF |\textcolor{green-code}{output}: \textcolor{green-code}{beamer\_presentation}  
 Presentation (ioslides) | HTML | \textcolor{green-code}{output}: \textcolor{green-code}{ioslides\_presentation}  
 
