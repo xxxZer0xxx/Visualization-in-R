@@ -158,6 +158,15 @@ Additional YAML sesstings
 \includegraphics[scale=0.45]{IMG/YAMLHeaderExercise}
 \end{center}
 
+## Text Formatting Examples
+
+Text formatting |
+-----|----------------
+Text | Text
+`` `r "*italic*"` `` or `` `r "_italic_"` `` | *italic*
+`` `r "**bold**"` `` or `` `r "__bold__"` ``| **bold**
+`` `r "[link](www.sbg.ac.at)"` `` | [link](www.sbg.ac.at)
+
 ## Write markdown
 
 You can use the Quick Reference or the Cheatsheet  
@@ -167,14 +176,6 @@ Both can be found by opening the **Help** dropdown menu which is positioned in t
 \includegraphics[scale=0.35]{IMG/Cheatsheet}
 \end{center}
 
-## Syntax Examples
-
-Text formatting |
------|----------------
-Text | Text
-`` `r "*italic*"` `` or `` `r "_italic_"` `` | *italic*
-`` `r "**bold**"` `` or `` `r "__bold__"` ``| **bold**
-`` `r "[link](www.sbg.ac.at)"` `` | [link](www.sbg.ac.at)
 
 ## Expanding your R Markdown Document
 
