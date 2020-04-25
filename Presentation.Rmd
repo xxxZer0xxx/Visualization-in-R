@@ -187,13 +187,15 @@ and reproduce the following:
 ## Embed your code    
     
 ### Inline Code
-```{r echo=FALSE}
-bq="`"
-```
-The mean speed of cars is (`` `r sprintf("%sr mean(cars$speed)%s", bq, bq)` ``) `r mean(cars$speed)`. 
+\begin{center}
+\includegraphics[scale=0.45]{IMG/InlineCode}
+\end{center}
+The mean speed of cars is `r mean(cars$speed)`. 
 
-### Code Chunk  
-{r cars, echo=TRUE}
+### Code Chunk 
+\begin{center}
+\includegraphics[scale=0.45]{IMG/CodeChunk}
+\end{center}
 ```{r cars_example, echo=TRUE}
 summary(cars)
 ```
@@ -245,11 +247,9 @@ x = 'hello, python world!'
 print(x.split(' '))
 ```
 
+## Creating a table
 
-
-## Exercices
-
-* Create a table that looks as following:
+### Create the following output:
 
 Command | Result
 --------|-------
