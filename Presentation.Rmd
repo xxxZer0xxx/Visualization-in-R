@@ -168,16 +168,16 @@ and reproduce the following:
 7. Knit again
 
 
-## Embed your code
-**inline code **   
+## Embed your code    
+    
+### Inline Code
 ```{r echo=FALSE}
 bq="`"
 ```
 The mean speed of cars is (`` `r sprintf("%sr mean(cars$speed)%s", bq, bq)` ``) `r mean(cars$speed)`. 
 
-**code chunk**   
+### Code Chunk  
 {r cars, echo=TRUE}
-
 ```{r cars_example, echo=TRUE}
 summary(cars)
 ```
