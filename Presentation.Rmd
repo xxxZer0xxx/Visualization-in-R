@@ -83,10 +83,11 @@ Before you start, make sure you have installed the R Markdown package
 \includegraphics[scale=0.45]{IMG/NewRMDSet}
 \end{center}
 
-## Exercices  
+## Setting up your own R Markdown Document  
 
 You are going to present your work on the "Bike Rental" dataset. 
 
+### Exercise
 * Title: "Analysis of the bike rental dataset"  
 * Subtitle: Your name  
 
@@ -151,7 +152,11 @@ Additional YAML sesstings
 * \textcolor{green-code}{fig\_width, fig\_height, fig\_caption}: figure options 
 * \textcolor{green-code}{include}: include other .tex files [PDF]
 
-vielleicht eher als screenshot
+## Your fancy Table of Content
+### Exercise
+\begin{center}
+\includegraphics[scale=0.45]{IMG/YAMLHeaderExercise}
+\end{center}
 
 ## Write markdown
 
@@ -171,7 +176,7 @@ Text | Text
 `` `r "**bold**"` `` or `` `r "__bold__"` ``| **bold**
 `` `r "[link](www.sbg.ac.at)"` `` | [link](www.sbg.ac.at)
 
-## Starting your own R Markdown Document
+## Expanding your R Markdown Document
 
 ### Exercise
 1. Set a header: "Part I: Summary statistics"  
@@ -180,8 +185,6 @@ and reproduce the following:
 3. Create some sub headers
 4. Load Image
 5. Knit
-6. Setup a table of content using the YAML header
-7. Knit again
 
 
 ## Embed your code    
