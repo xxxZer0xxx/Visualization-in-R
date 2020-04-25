@@ -23,9 +23,10 @@ knitr::opts_chunk$set(echo = FALSE)
 - Refernces
 
 ## Installation
-Before you start, make sure you have installed the rmarkdown package  
-
-`install.package("rmarkdown")`
+Before you start, make sure you have installed the R Markdown package  
+\  
+  
+> install.package("rmarkdown")
 
 ## What is R Markdown?
 
