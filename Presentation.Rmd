@@ -246,7 +246,7 @@ You can also use other languges like Python, SQL, Javascript and more while usin
 
 ### Example
 
-```{python, echo=TRUE}
+```{python python_example, echo=TRUE}
 x = 'hello, python world!'
 print(x.split(' '))
 ```
