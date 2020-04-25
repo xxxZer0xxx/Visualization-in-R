@@ -28,20 +28,35 @@ Before you start, make sure you have installed the R Markdown package
   
 > install.package("rmarkdown")
 
+## Introduction
+\begin{center}
+\includegraphics[scale=0.6]{IMG/Crisis}
+\end{center}
+
 ## What is R Markdown?
 
-**Markdown** = Language for text formatting  
+### Markdown = Language for text formatting  
 
 * an easy to write plain text format for creatin dynamic documents and reports  
 * contains "normal" text and code chunks (e.g. R, but Python, SQL, and more also possible)  
 * RMD -> MD -> html, Docx or PDF  
 * Formatting documents outside the analysis  
 
-**Creating a document that can contain both text and code:**  
+### Creating a document that can contain both text and code:
 
 * When creating ("knitting"), the code is executed and displayed together with the description.  
 * Only a document with out warnings/errors can be knitted!  
 * Possible to export a Word, HTML or PDF file.  
+
+## Advantages
+
+### Why should you use R Markdown
+
+* Research becomes reproducible
+* Share your analysis (results and associated documentation)
+* Consolidate your and document into a single file
+* Easy for version Control (e.g. Git/GitHub)
+* Your output file will look great with harldy any effort on your part
 
 ## Approach
 1. Open RStudio -> File -> New File -> R Markdown
