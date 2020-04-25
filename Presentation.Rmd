@@ -79,7 +79,7 @@ You are going to present your work on the "Bike Rental" dataset.
 
 * You can shoose between HTML, PDF and Docx(Word)  
    + **HTML** is recommeneded, since everybody can read it
-* You can always change your output format, in the  YAML Header
+* You can always change your output format, in the  YAML header
 
 ## Starting Point
 
@@ -155,16 +155,17 @@ Text | Text
 `` `r "**bold**"` `` or `` `r "__bold__"` ``| **bold**
 `` `r "[link](www.sbg.ac.at)"` `` | [link](www.sbg.ac.at)
 
-## Exercise
+## Starting your own R Markdown Document
 
-* Set a header: "Part I: Summary statistics"  
-* Write a plain text introduction using empahsis and lists according to Reference Guide 
+### Exercise
+1. Set a header: "Part I: Summary statistics"  
+2. Write a plain text introduction using empahsis and lists according to Reference Guide 
 and reproduce the following: 
-* Create Headers
-* Load Image
-* Knit
-* Set YAML Header(after) -> toc, fig options
-* Knit again
+3. Create some sub headers
+4. Load Image
+5. Knit
+6. Setup a table of content using the YAML header
+7. Knit again
 
 
 ## Embed your code
@@ -177,7 +178,7 @@ The mean speed of cars is (`` `r sprintf("%sr mean(cars$speed)%s", bq, bq)` ``) 
 **code chunk**   
 {r cars, echo=TRUE}
 
-```{r cars, echo=TRUE}
+```{r cars_example, echo=TRUE}
 summary(cars)
 ```
 
@@ -188,13 +189,6 @@ Press Shift + ` (twice or followed by Space)
 \includegraphics[scale=0.45]{IMG/Keyboard}
 \end{center}
 
-## Create your first code chunks
-
-`Now lets create our first chunks using the following   
-commands on the count variabel in the bike rental dataset: `  
-`summary()`  
-`mean()`  
-`sd()`  
 
 ## Embed your code
 Option | Description
@@ -203,9 +197,30 @@ Option | Description
 **echo**(logical, TRUE) | Hides R-Code
 **results**(char, "markup") | Formatting R output: e.g. "markup", "asis"
 
+## Importing the dataset
+
+### Exercise
+Now lets import our dataset while hiding our code.  
+To import the dataset you will want to use read.csv()  
+    
+    
+### Hint
+`If you are using a project or set your working directory, 
+you can use "./dataset/day.csv"`
+
+## Create a stastical overview
+
+### Exercise
+Now lets use some basic statiscal commands using the following   
+commands on the count variabel in the bike rental dataset:  
+  
+### Commands
+`summary()`  
+`mean()`  
+`sd()`  
 
 ## Embed your code
-* You can also use other languges like Python, SQL and more to embed your code  
+You can also use other languges like Python, SQL, Javascript and more while using *R Markdown*
 
 ### Example
 
