@@ -26,7 +26,7 @@ knitr::opts_chunk$set(echo = FALSE)
 Before you start, make sure you have installed the R Markdown package  
 \  
   
-> install.package("rmarkdown")
+> install.packages("rmarkdown")
 
 ## Introduction
 \begin{center}
@@ -262,7 +262,7 @@ Command | Result
 ## Write Inline and Plotting
 
 ### Exercise
-1. Automatically write the Minimum in the output of the sentence
+1. Automatically write the minimum in the output of the sentence
     + `The smallest value of count is [inline code].`
 2. Add a horizontal line
 3. Set a header: "Part II: Visualization"
