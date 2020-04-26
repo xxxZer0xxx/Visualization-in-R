@@ -266,10 +266,10 @@ Command | Result
     + `The smallest value of count is [inline code].`
 2. Add a horizontal line
 3. Set a header: "Part II: Visualization"
-4. Use the command `plot()` to gernerate a scatterplot. Do not print the code!
+4. Use the command `plot()` to generate a scatterplot. Do not print the code!
 5. Add some plain text, divided into two lines:
     + "Figure I:
-    + Correlation of count and day"
+    + Correlation of count and temperature"
     
     
 ## Create Hyperlinks
