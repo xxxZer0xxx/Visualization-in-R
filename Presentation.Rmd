@@ -54,9 +54,9 @@ Before you start, make sure you have installed the R Markdown package
 
 * Research becomes reproducible
 * Share your analysis (results and associated documentation)
-* Consolidate your and document into a single file
+* Consolidate your analysis and document into a single file
 * Easy for version Control (e.g. Git/GitHub)
-* Your output file will look great with harldy any effort on your part
+* Your output file will look great with hardly any effort on your part
 
 ## Approach
 1. Open RStudio -> File -> New File -> R Markdown
@@ -182,10 +182,10 @@ Both can be found by opening the **Help** dropdown menu which is positioned in t
 ### Exercise
 1. Set a header: "Part I: Summary statistics"  
 2. Write a plain text introduction using empahsis and lists according to Reference Guide 
-and reproduce the following: 
-3. Create some sub headers
-4. Load Image
-5. Knit
+and reproduce something like the following: 
+\begin{center}
+\includegraphics[scale=0.35]{IMG/ExerciseExample}
+\end{center}
 
 
 ## Embed your code    
